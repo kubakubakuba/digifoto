@@ -1,6 +1,12 @@
 {
   "devDependencies": {
-    "markdown-it-emoji": "^3.0.0",
+    "@unocss/preset-attributify": "^66.5.1",
+    "@unocss/preset-icons": "^66.5.1",
+    "@unocss/preset-uno": "^66.5.1",
+    "@unocss/preset-web-fonts": "^66.5.1",
+    "@unocss/transformer-directives": "^66.5.1",
+    "@unocss/transformer-variant-group": "^66.5.1",
+    "unocss": "^66.5.1",
     "vitepress": "^2.0.0-alpha.12"
   },
   "scripts": {

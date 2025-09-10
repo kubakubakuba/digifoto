@@ -1,10 +1,16 @@
 import { defineConfig } from 'vitepress'
 import markdownItMathjax3 from 'markdown-it-mathjax3'
 import markdownItFootnote from 'markdown-it-footnote'
-import { withMermaid } from 'vitepress-plugin-mermaid'
+import UnoCSS from 'unocss/vite'
+import unoConfig from '../../unocss.config.ts'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  vite: {
+    plugins: [
+      UnoCSS(unoConfig)
+    ],
+  },
   title: "Digifoto",
   description: "Návody pro zpracování astrofotografií",
   themeConfig: {
@@ -28,16 +34,31 @@ export default defineConfig({
         link: '/krajinky/'
       },
       {
+        text: 'S.A.J.R.I.',
+        link: '/sajri/'
+      },
+      {
         text: 'N.I.N.A.',
         link: '/nina/'
       },
       {
-        text: 'Zpracování fotek v PixInsightu',
-        link: '/pixinsight/'
+        text: 'PixInsight',
+        items: [
+          { text: 'Nový návod', link: '/pixinsight/'},
+          { text: 'Originální návod', link: '/pixinsight/orig/' }
+        ]
       },
       {
-        text: 'Zpracování fotek v Sirilu',
+        text: 'Siril',
         link: '/siril/'
+      },
+      {
+        text: 'GraXpert',
+        link: '/graxpert/'
+      },
+      {
+        text: 'Seti Astro\'s Suite',
+        link: '/seti/'
       },
       {
         text: 'Úpravy fotek v PS',
@@ -51,9 +72,21 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/kubakubakuba/digifoto' }
-    ]
+    ],
+
+    editLink: {
+        pattern: 'https://github.com/kubakubakuba/digifoto/edit/main/:path'
+    },
+
+    search: {
+        provider: 'local'
+    },
   },
   markdown: {
+    theme: {
+      light: 'vitesse-light',
+      dark: 'vitesse-dark'
+    },
     config: (md) => {
       md.use(markdownItMathjax3);
       md.use(markdownItFootnote)

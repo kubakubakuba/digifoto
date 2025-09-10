@@ -2,7 +2,6 @@
 outline: deep
 ---
 
-
 # Zpracování fotek v Pixi
 
 ## BPP (Batch preprocessing)

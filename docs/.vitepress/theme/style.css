@@ -1,0 +1,97 @@
+/* VitePress Dark Green Theme */
+:root {
+  /* Primary brand colors - darker green */
+  --vp-c-brand-1: #047857;
+  --vp-c-brand-2: #065f46;
+  --vp-c-brand-3: #064e3b;
+  --vp-c-brand-soft: #04785720;
+  
+  /* Brand variations */
+  --vp-c-brand-light: #059669;
+  --vp-c-brand-lighter: #10b981;
+  --vp-c-brand-dark: #022c22;
+  --vp-c-brand-darker: #021f1a;
+  
+  /* Accent color */
+  --vp-c-brand-next: #0f766e;
+  
+  /* Code block styling - use default VitePress backgrounds */
+  --vp-code-block-bg: var(--vp-c-bg-soft);
+  --vp-code-bg: var(--vp-c-bg-soft);
+  --vp-c-text-code: #065f46;
+  
+  /* Code highlighting colors */
+  --vp-code-line-highlight-color: rgba(6, 78, 59, 0.08);
+  --vp-code-line-number-color: rgba(6, 78, 59, 0.4);
+  
+  /* Custom code colors */
+  --vp-code-color-keyword: #065f46;
+  --vp-code-color-string: #047857;
+  --vp-code-color-function: #0f766e;
+  --vp-code-color-comment: #6b7280;
+}
+
+.dark {
+  /* Dark mode - brighter greens for contrast */
+  --vp-c-brand-1: #34d399;
+  --vp-c-brand-2: #10b981;
+  --vp-c-brand-3: #059669;
+  --vp-c-brand-soft: #34d39920;
+  
+  --vp-c-brand-light: #6ee7b7;
+  --vp-c-brand-lighter: #a7f3d0;
+  --vp-c-brand-dark: #047857;
+  --vp-c-brand-darker: #065f46;
+  
+  /* Dark mode code styling - use default VitePress backgrounds */
+  --vp-code-block-bg: var(--vp-c-bg-soft);
+  --vp-code-bg: var(--vp-c-bg-soft);
+  --vp-c-text-code: #6ee7b7;
+  
+  /* Dark mode code highlighting */
+  --vp-code-line-highlight-color: rgba(52, 211, 153, 0.1);
+  
+  /* Dark mode code colors */
+  --vp-code-color-keyword: #6ee7b7;
+  --vp-code-color-string: #34d399;
+  --vp-code-color-function: #5eead4;
+  --vp-code-color-comment: #9ca3af;
+}
+
+/* Inline code styling - subtle background */
+code {
+  background-color: var(--vp-c-bg-soft);
+  color: #047857;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.dark code {
+  color: #6ee7b7;
+}
+
+/* Code block enhancements - keep default backgrounds */
+pre code {
+  background-color: transparent;
+  color: inherit;
+  padding: 0;
+}
+
+/* Inline code styling - subtle background */
+code {
+  background-color: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-code);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* Code block enhancements - keep default backgrounds */
+pre code {
+  background-color: transparent;
+  color: inherit;
+  padding: 0;
+}

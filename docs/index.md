@@ -6,19 +6,12 @@ hero:
   name: "Digifoto"
   text: 
   tagline: "Návody pro zpracování astrofotografií"
-  actions:
-    #- theme: brand
-    #  text: Markdown Examples
-    #  link: /markdown-examples
-    #- theme: alt
-    #  text: API Examples
-    #  link: /api-examples
 
 features:
   - title: Základy
     icon: 📷
     details: Základy používání fotoaparátu
-    link: /zaklady/
+    link: /zaklady/vybaveni/
 
   - title: Focení krajinek
     icon:
@@ -43,7 +36,19 @@ features:
       src: /img/Siril.svg
     details: Návody pro zpracování fotek v Sirilu
     link: /siril/
-  
+
+  - title: GraXpert
+    icon:
+      src: /img/graxpert.jpg
+    details: Odšumění, dekonvoluce a odstranění gradientů pomocí GraXpertu
+    link: /graxpert/
+
+  - title: Seti Astro's Suite
+    icon:
+      src: /img/astrosuite.png
+    details: Zpracování fotek pomocí nástrojů od Seti Astro
+    link: /seti/
+
   - title: Úpravy fotek v PS
     icon:
       src: /img/pslogo.svg
