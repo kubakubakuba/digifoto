@@ -4,6 +4,7 @@ import markdownItFootnote from 'markdown-it-footnote'
 import UnoCSS from 'unocss/vite'
 import unoConfig from '../../unocss.config.ts'
 
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   vite: {
@@ -24,9 +25,9 @@ export default defineConfig({
       {
         text: 'Základy',
         items: [
-          { text: 'Astronomické vybavení', link: '/zaklady/vybaveni' },
           { text: 'Ovládání zrcadlovky', link: '/zaklady/zrcadlovky' },
-          { text: 'Magic lantern', link: '/zaklady/magic' }
+          { text: 'Magic lantern', link: '/zaklady/magic' },
+          { text: 'Astronomické vybavení', link: '/zaklady/vybaveni' },
         ]
       },
       {
@@ -88,7 +89,7 @@ export default defineConfig({
       dark: 'vitesse-dark'
     },
     config: (md) => {
-      md.use(markdownItMathjax3);
+      md.use(markdownItMathjax3)
       md.use(markdownItFootnote)
     }
   },

@@ -11,7 +11,7 @@ features:
   - title: Základy
     icon: 📷
     details: Základy používání fotoaparátu
-    link: /zaklady/vybaveni/
+    link: /zaklady/
 
   - title: Focení krajinek
     icon:
