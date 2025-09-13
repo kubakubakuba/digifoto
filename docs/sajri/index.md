@@ -57,11 +57,11 @@ ZWO_ASI_Cameras_driver_Setup_V3.22.exe | https://www.zwoastro.com/software/ |
 
 Pří prvním zapnutí (a připojení USB kabelu do polárního hledáčku) je nutné nejdříve nastavit GPS souřadnice pozorovacího místa (v panelu settings). A poté (s ještě stále zakrytým polárním hledáčkem) pořídit dark snímky. Po pořízení darků je možné je při každém dalším ustavování montáže pouze zvlolit možnost *Load last dark frame*.
 
-![settings](img/settings.png)
+![settings](/img/sajri/settings.png)
 
 Pro samotný alignment stačí sledovat červenou tečku a otáčením stavicích šroubů pro pohyb vlevo/vpravo a za použití inbusu pro pohyb nahoru/dolů ji dostat na střed kříže. Jakmile bude správně ustaveno, tečka zezelená.
 
-![alt text](img/iPolar-screen2-66c653a-e1560428730807.webp)
+![alt text](/img/sajri/iPolar-screen2-66c653a-e1560428730807.webp)
 
 Dále by již mělo stačit zapnout software N.I.N.A. a ovládat dalekohled přes něj.
 

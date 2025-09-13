@@ -5,11 +5,11 @@ outline: deep
 # Zpracování fotek v Pixi
 
 ## BPP (Batch preprocessing)
-![BPP](img/bpppath.jpg)
+![BPP](/img/pixi/bpppath.jpg)
 
 Otevřeme v script -> Batch Processing -> BatchPreprocessing
 
-![BPP](img/bpp.jpg)
+![BPP](/img/pixi/bpp.jpg)
 
 Načteme snímky přes Add Bias, Add Darks, Add Flats, Add Lights, pokud už máme mastery stačí přidat pouze jeden (nutné potom zakliknout use master vpravo)
 
@@ -26,17 +26,17 @@ Ctrl + A pro strečování fotky, Ctrl + F12 pro odstrečování
 globální aplikace přes čtvereček, na jednu fotku přetažením trojúhelníku
 
 ## Dynamic crop
-![Dynamic crop](img/dynamic_crop.jpg)
+![Dynamic crop](/img/pixi/dynamic_crop.jpg)
 
 Ořízněte okraje fotky (kde jsou chyby po složení), popřípadě opravte kompozici. Aplikace kliknutím na fajfku.
 
 ## Screen Transfer Function
-![STF](img/stf.jpg)
+![STF](/img/pixi/stf.jpg)
 
 STF - unlink channels (řetěz) - stretch (radiační ikonka)
 
 ## Dynamic background extraction
-![DBE](img/dbe_before.jpg)
+![DBE](/img/pixi/dbe_before.jpg)
 
 pro začátek je nutné kliknout na obrázek, umístí se kříž
 
@@ -46,39 +46,39 @@ rozmístit od okrajů do středu tak, aby byl zachycen gradient, ne málo ane an
 
 vzorek neumisťovat na místa, která se zobrazí jako černá (je tam hvězda)
 
-![black_star](img/black_star.jpg)
+![black_star](/img/pixi/black_star.jpg)
 tohle ne
 
 v target image correction vybrat subtraction, aplikace trojúhelníčkem, vygeneruje se pozadí a fotka s odečteným pozadím
 
-![DBE after](img/dbe_after.jpg)
+![DBE after](/img/pixi/dbe_after.jpg)
 
 ## Color calibration
-![Color Caliration](img/cc.jpg)
+![Color Caliration](/img/pixi/cc.jpg)
 
 Alt+N - tmavé místo, Alt+N přes celou mlhovinu - white reference
 
 ## Photometric color calibration
-![PCC](img/pcc.jpg)
+![PCC](/img/pixi/pcc.jpg)
 
 Pro kalibraci barev lze použít i photometric color calibration
 Pokud jsou metadata o pozici v obrázku (lze vložit přes script -> image analysis -> image solver), stačí kliknout na acquire from image, pokud ne tak vyhledejte objekt který jste fotili přes search coordinates
 
 ## Background Neutralizaiton
-![BN](img/bn.jpg)
+![BN](/img/pixi/bn.jpg)
 
 black reference z vybraného samplu v minulém kroku
 
 ## Masky
-![mask](img/mask_icon.jpg)
+![mask](/img/pixi/mask_icon.jpg)
 
 Extrahovat jasovou složku nahoře v liště (dobré setnout identifier)
 
-![mask](img/mask.jpg)
+![mask](/img/pixi/mask.jpg)
 
 ## Dekonvoluce
 ### Dynamic PSF
-![PSF](img/psf.jpg)
+![PSF](/img/pixi/psf.jpg)
 
 vytvoříme fotku průměrné hvězdy
 
@@ -88,17 +88,17 @@ poklikat osamocené hvězdy
 kliknout na foťáček a objeví se průměrná hvězda
 
 ### Curves transformation na masku
-![curves on mask](img/curvesmask.jpg)
+![curves on mask](/img/pixi/curvesmask.jpg)
 
 esovitá křivka tak aby maska byla více kontrastní (***aby zůstala mlhovina, ale černá černou byla*** - JV, 2024)
 
 živý náhled se zobrazí přes prázdné kolečko
 
-![convolution](img/convolution.jpg)
+![convolution](/img/pixi/convolution.jpg)
 aplikovat konvoluci na masku, základní nastavení (neaplikovat na barevnou)
 
 ### Stretch masky
-![stretch mask](img/stretchmask.jpg)
+![stretch mask](/img/pixi/stretchmask.jpg)
 
 ScreenTransferFunction + HistogramTransformation
 trojúhelník z STF na dolní lištu histo, pak trojúhelník z histo na masku
@@ -110,7 +110,7 @@ Ctrl+K pro zmizení červené
 (pokud potřeba Ctrl+Shift+I pro inverzi)
 
 ### Dekonvoluce
-![deconvolution](img/deconvolution.jpg)
+![deconvolution](/img/pixi/deconvolution.jpg)
 
 Alt+N pro menší místo obrázku (přes mlhovinu i pozadí), operace je výpočetně náročná
 v záložce ExternalPSF nahrát vygenerovanou hvězdu
@@ -123,7 +123,7 @@ pokud černé kroužky kolem, zvýšit global dark
 vyzkoušet i na prewiev s velkými hvězdami, pokud ty jsou špatně, nutné udělat extra masku na velké hvězdy
 
 ### StarMask
-![smask](img/smask.jpg)
+![smask](/img/pixi/smask.jpg)
 vezmeme původní fotku po DBE
 - scale 5
 - large scale 2
@@ -146,7 +146,7 @@ streč přes STF + Histo Transformation
 přetáhnou trojúhelníček z STF na dolní lištu HistogramTransformation, poté trojúhelníček z Histo na obrázek
 
 ## SCRN
-![SCNR](img/scnr.jpg)
+![SCNR](/img/pixi/scnr.jpg)
 
 odstranění zelené z fotky
 
@@ -156,19 +156,19 @@ aplikovat masku na obrázek
 nyní znovu curves transformation, záložka saturace (S), potom klidně i čistě curves na barvy pod kanály R, G, B / RGB / S
 
 ## Export
-![export](img/export.jpg)
+![export](/img/pixi/export.jpg)
 
 menu file -> save as
 
 do 16-bit TIFF
 
 ## Starnet++
-![starnet](img/starnet.jpg)
+![starnet](/img/pixi/starnet.jpg)
 
 Nyní fotku prohnat Starnet++
 
 ## PixelMath
-![pixel math](img/pixelmath.jpg)
+![pixel math](/img/pixi/pixelmath.jpg)
 
 odečíst starnet fotku od původní - fotka pouze s hvězdami
 a - b

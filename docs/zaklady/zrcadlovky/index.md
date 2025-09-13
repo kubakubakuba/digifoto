@@ -8,23 +8,23 @@ outline: deep
 
 ### Auto (P)
 
-<Inline style="width: 49%">img/auto_mode.jpg</Inline>
+<Inline style="width: 49%">/img/zrcadlovky/auto_mode.jpg</Inline>
 
 ### Aperture Priority (Av)
 
-<Inline style="width: 49%">img/av_mode.jpg</Inline>
+<Inline style="width: 49%">/img/zrcadlovky/av_mode.jpg</Inline>
 
 ### Shutter Priority (Tv)
 
-<Inline style="width: 49%">img/tv_mode.jpg</Inline>
+<Inline style="width: 49%">/img/zrcadlovky/tv_mode.jpg</Inline>
 
 ### Manual (M)
 
-<Inline style="width: 49%">img/manual_mode.jpg</Inline>
+<Inline style="width: 49%">/img/zrcadlovky/manual_mode.jpg</Inline>
 
 ### Bulb (B)
 
-<Inline style="width: 49%">img/bulb_mode.jpg</Inline>
+<Inline style="width: 49%">/img/zrcadlovky/bulb_mode.jpg</Inline>
 
 Někdy jako vlastní mód, někdy schován v manuálním módu.
 
@@ -38,27 +38,27 @@ Dobré pravidlo pro nastavení fotoaparátu je, že chceme vypnout všechna auto
 
 **Výstupní typ obrázků nastavte na RAW**
 
-<Inline style="width: 49%">img/raw.jpg</Inline> <Inline style="width: 49%">./img/raw_settings.jpg</Inline>
+<Inline style="width: 49%">/img/zrcadlovky/raw.jpg</Inline> <Inline style="width: 49%">./img/zrcadlovky/raw_settings.jpg</Inline>
 
 **Vypněte automatické otáčení obrázků**
 
-<Inline style="width: 49%">img/rotate.jpg</Inline>
+<Inline style="width: 49%">/img/zrcadlovky/rotate.jpg</Inline>
 
 **Vypněte automatické čistění senzoru**
 
-<Inline style="width: 49%">img/sensorcleaning.jpg</Inline> <Inline style="width: 49%">img/autoclean.jpg</Inline>
+<Inline style="width: 49%">/img/zrcadlovky/sensorcleaning.jpg</Inline> <Inline style="width: 49%">img/autoclean.jpg</Inline>
 
 Kdyby se senzor automaticky čistil při vypnutí/zapnutí, změnil by tak rozprostření prachu, který jsme schopni z fotek odstranit korekčními snímky. Je tedy dobré toto nastavení vypnout.
 
 **Změňte nastavení picture style**
 
-<Inline style="width: 49%">img/picture_style.jpg</Inline>
+<Inline style="width: 49%">/img/zrcadlovky/picture_style.jpg</Inline>
 
 Nastavení do dobré dát na neutrální (dá se změnit i přes domovskou obrazovku).
 
 **Změňte nastavení vyvážení bílé**
 
-<Inline style="width: 49%">img/awb.jpg</Inline> <Inline style="width: 49%">img/awb_settings.jpg</Inline>
+<Inline style="width: 49%">/img/zrcadlovky/awb.jpg</Inline> <Inline style="width: 49%">img/awb_settings.jpg</Inline>
 
 Nastavení dejte na daylight (teplota 5200K). Auto lighing optimizer na *OFF*.
 
