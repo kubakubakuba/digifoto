@@ -10,11 +10,11 @@ Magic lantern je open-source firmware pro DSLR fotoaparáty Canon, který přin�
 
 Stáhněte si verzi určeného pro typ vaší zrcadlovky [ZDE](https://builds.magiclantern.fm/) (pozor například na rozdílné verze pro 6D MkI a MkII), pozor také na potřebnou verzi originálního Canon firmware (například právě pro 6D je to verze 1.1.6).
 
-![](img/dl.jpg)
+![](/img/magic/dl.jpg)
 
 Stažený zip vyextrahujete do root složky SD karty fotoaparátu a kartu vložte zpět.
 
-![](img/copy.jpg)
+![](/img/magic/copy.jpg)
 
 V nastavení fotoaparátu přejděte do menu a klikněte na firmware version a update.
 
@@ -46,7 +46,7 @@ Do menu magic lantern se dostanete po zmáčknutí tlačítka koše (na různýc
 
 ### Intervalometr
 
-Nejdůležitější obrazovka v magic lantern pro nás bude obrazovka **Shoot** s ikonkou <Inline style="width: 5%">img/fotoico.jpg</Inline>,
+Nejdůležitější obrazovka v magic lantern pro nás bude obrazovka **Shoot** s ikonkou <Inline style="width: 5%">/img/magic/fotoico.jpg</Inline>,
 zde budeme využívat nastavení **Intervalometer** a **Bulb timer**.
 
 ![menu intervalometr](/img/magic/intervalometer.jpg)

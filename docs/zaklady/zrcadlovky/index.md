@@ -38,7 +38,7 @@ Dobré pravidlo pro nastavení fotoaparátu je, že chceme vypnout všechna auto
 
 **Výstupní typ obrázků nastavte na RAW**
 
-<Inline style="width: 49%">/img/zrcadlovky/raw.jpg</Inline> <Inline style="width: 49%">./img/zrcadlovky/raw_settings.jpg</Inline>
+<Inline style="width: 49%">/img/zrcadlovky/raw.jpg</Inline> <Inline style="width: 49%">/img/zrcadlovky/raw_settings.jpg</Inline>
 
 **Vypněte automatické otáčení obrázků**
 
@@ -46,7 +46,7 @@ Dobré pravidlo pro nastavení fotoaparátu je, že chceme vypnout všechna auto
 
 **Vypněte automatické čistění senzoru**
 
-<Inline style="width: 49%">/img/zrcadlovky/sensorcleaning.jpg</Inline> <Inline style="width: 49%">img/autoclean.jpg</Inline>
+<Inline style="width: 49%">/img/zrcadlovky/sensorcleaning.jpg</Inline> <Inline style="width: 49%">/img/zrcadlovky/autoclean.jpg</Inline>
 
 Kdyby se senzor automaticky čistil při vypnutí/zapnutí, změnil by tak rozprostření prachu, který jsme schopni z fotek odstranit korekčními snímky. Je tedy dobré toto nastavení vypnout.
 
@@ -58,7 +58,7 @@ Nastavení do dobré dát na neutrální (dá se změnit i přes domovskou obraz
 
 **Změňte nastavení vyvážení bílé**
 
-<Inline style="width: 49%">/img/zrcadlovky/awb.jpg</Inline> <Inline style="width: 49%">img/awb_settings.jpg</Inline>
+<Inline style="width: 49%">/img/zrcadlovky/awb.jpg</Inline> <Inline style="width: 49%">/img/zrcadlovky/awb_settings.jpg</Inline>
 
 Nastavení dejte na daylight (teplota 5200K). Auto lighing optimizer na *OFF*.
 
