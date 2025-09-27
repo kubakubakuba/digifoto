@@ -38,7 +38,7 @@ Po úspěšné instalaci se vám zobrazí tato zpráva
 
 ![](/img/magic/new-installer.png)
 
-zrcadlovku stačí restartovat, pro odinstalaci magic lanter, počkejte než časovač dosáhne nuly.
+zrcadlovku stačí restartovat, pro odinstalaci magic lantern, počkejte než časovač dosáhne nuly.
 
 ## Ovládání magic lantern
 

@@ -76,7 +76,7 @@ export default defineConfig({
     ],
 
     editLink: {
-        pattern: 'https://github.com/kubakubakuba/digifoto/edit/main/:path'
+        pattern: 'https://github.com/kubakubakuba/digifoto/edit/main/docs/:path'
     },
 
     search: {
