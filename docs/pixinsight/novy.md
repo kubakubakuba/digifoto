@@ -2,6 +2,9 @@
 outline: deep
 ---
 
+:::info Seznam repozitářů
+
+Tento seznam repozitářů si přidejte do PixInsightu přes okno resources. 
 ```txt
 https://pixinsight.starnetastro.com/
 https://pixinsight.starnetastro.com/tensorflow/
@@ -18,3 +21,4 @@ https://pixinsight.deepsnrastro.com/
 https://pixinsight.deepsnrastro.com/tensorflow/
 https://www.ideviceapps.de/PixInsight/Utilities/
 ```
+:::

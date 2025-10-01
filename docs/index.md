@@ -49,14 +49,39 @@ features:
     details: Zpracování fotek pomocí nástrojů od Seti Astro
     link: /seti/
 
+  - title: Planetární astrofoto
+    icon: 🪐
+    details: Návody pro zpracování planetární astrofotografie
+    link: /planety/
+
   - title: Úpravy fotek v PS
     icon:
       src: /img/pslogo.svg
     details: Návody pro úpravy fotek v Adobe Photoshop
     link: /photoshop/
 
-  - title: Planetární astrofoto
-    icon: 🪐
-    details: Návody pro zpracování planetární astrofotografie
-    link: /planety/
+  - title: Úpravy fotek v LrC
+    icon:
+      src: /img/Adobe_Photoshop_Lightroom_Classic_CC_icon.svg
+    details: Návody pro rychlé úpravy fotek v Adobe LIghtroom Classic
+    link: /lightroom/
+
+  - title: Úpravy fotek v RapidRaw
+    icon:
+      src: /img/io.github.CyberTimon.RapidRAW.png
+    details: Zpracování fotek v RapidRAW, FOSS alternativě k Adobe Lightroom
+    link: /lightroom/rapidraw
+
+  - title: Úpravy fotek v RawTherapee
+    icon:
+      src: /img/RawTherapee_logo-circle.svg
+    details: Zpracování fotek v RawTherapee, FOSS alternativě k Adobe Lightroom
+    link: /lightroom/rawtherapee
+
 ---
+
+<script setup>
+import WorkshopsList from './.vitepress/theme/components/WorkshopsList.vue'
+</script>
+
+<WorkshopsList />

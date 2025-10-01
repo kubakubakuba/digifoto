@@ -66,6 +66,14 @@ export default defineConfig({
         link: '/photoshop/'
       },
       {
+        text: 'Úpravy fotek v Lightroomu',
+        link: '/photoshop/',
+        items: [
+          { text: 'RapidRAW', link: '/lightroom/rapidraw/'},
+          { text: 'RawTherapee', link: '/lightroom/rawtherapee/' }
+        ]
+      },
+      {
         text: 'Planetární astrofoto',
         link: '/planety/'
       }

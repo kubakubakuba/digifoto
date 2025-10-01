@@ -27,7 +27,7 @@ V Pixinsightu existuje mnoho nastavení a způsobů jak kalibrovat snímky hezky
 
 Začneme tak, že postupně nahrajeme jednotlivé sady snímků do patřičných záložek. Dvojklikem na Light snímek ze středu sady vybereme vzor pro registraci ostatních fotek. Dále vybereme Output directory, tedy složku, kam má Pixi exportovat soubory. Zkontrolujte si, že nemáte zašktlou volbu Generate drizzle data, proces by trval ještě mnohem déle a měli byste o složku dat navíc, která jsou pro naše účely zbytečná.
 
-![](/img/pixi/output-000.jpg)
+![](/img/pixi/output-000.webp)
 
 *BPP připravený ke spuštění.*
 
@@ -37,19 +37,19 @@ Když konečně přestane PC hučet jak šílené, ve dříve vybrané složce n
 
 Nyní si otevřeme naši složenou fotku, pravděpodobně uvidíte pouze pár hvězd, jinak bude černá. Musíme ji totiž nejprve "strečnout". To lze udělat několika způsoby, buď v horní liště
 
-napravo kliknete na radioaktivní ikonku <Inline>/img/pixi/output-001.jpg</Inline> nebo jednodušeji **CTRL+A**, streč zrušítě **CTRL+F12**. Dalším způsobem jak strečnout fotku je pomocí <u>Screen transfer function</u>.
+napravo kliknete na radioaktivní ikonku <Inline>/img/pixi/output-001.webp</Inline> nebo jednodušeji **CTRL+A**, streč zrušítě **CTRL+F12**. Dalším způsobem jak strečnout fotku je pomocí <u>Screen transfer function</u>.
 
-![](/img/pixi/output-002.jpg)
+![](/img/pixi/output-002.webp)
 
 ## **Screen transfer function**
 
 Toto je první proces, který použijete při zpracování. Když jste si strečli fotku, pravděpodobně jste se lekli toho jak oranžová nebo zelená fotka je. To je způsobené debayerovacím procesem, který při kalibraci fotek rozhodil intenzity jednotlivých kanálů. Nyní, když se fotka strečne, převažující kanál se projeví tak, že fotka vypadá utopená v jedné barvě. To lze jednoduše napravit zakliknutím tlačítka "Unlink channels".
 
-![](/img/pixi/output-003.jpg)
+![](/img/pixi/output-003.webp)
 
 To způsobí, že bude každý kanál strečován individuálně. Když nyní klikneme na tlačítko radiace nebo zmáčkneme **CTRL+A**, fotka by měla vypadat o poznání lépe.
 
-![](/img/pixi/output-004.jpg)
+![](/img/pixi/output-004.webp)
 
 *Po rozpojení RGB kanálů už fotka vypadá lépe.*
 
@@ -57,7 +57,7 @@ To způsobí, že bude každý kanál strečován individuálně. Když nyní kl
 
 Po složení jsou okraje fotky většinou hodně škaredé, protože se objekt mírně pohybuje buď nepřesným chodem montáže (to není úplně žádané) a nebo ditheringem (ten je naopak žádaný). Pomocí tohoto procesu fotku jednoduše ořízneme a tím se škaredých okrajů zbavíme.
 
-![](/img/pixi/output-005.jpg)
+![](/img/pixi/output-005.webp)
 
 ## **ABE / DBE**
 
@@ -77,21 +77,21 @@ Při otevření DBE si rozklikneme nabídky Model parameters, Sample generation 
 
 30 pixely. Potom začneme manuálně umisťovat vzorky tak, aby neobsahovaly pokud možno žádné hvězdy, v hustém hvězdném poli aspoň žádné jasné a pouze pozadí (čím jasnější je pixel ve vzorku, tím je tmavší, snažte se vyhnout černé barvě ve vzorcích). Pokud umístíme vzorek do místa, které je moc jasné, vzorek zčervená a je třeba zvýšit toleranci, zvýšení se aplikuje až po kliknutí na Resize All.
 
-![](/img/pixi/output-006.jpg)
+![](/img/pixi/output-006.webp)
 
 *Příklad jak by neměl vypadat vzorek pozadí.*
 
 Pro představu můžeme DBE aplikovat na fotku a nechat si pouze zobrazit vygenerovaný model pozadí. Když jsme spokojeni s modelem, který DBE generuje, vybereme Substraction v nabídce Target image correction jako u ABE a aplikujeme na fotku. Jak ABE tak DBE lze během procesu kdykoli aplikovat znova.
 
-![](/img/pixi/output-007.jpg)
+![](/img/pixi/output-007.webp)
 
 *Správný model pozadí neobsahující žádné ostré přechody.*
 
-![](/img/pixi/output-008.jpg)
+![](/img/pixi/output-008.webp)
 
 *Rozmístění vzorku na fotce.*
 
-![](/img/pixi/output-009.jpg)
+![](/img/pixi/output-009.webp)
 
 *Nastavení od kterého se při DBE odpíchnout.*
 
@@ -99,13 +99,13 @@ Pro představu můžeme DBE aplikovat na fotku a nechat si pouze zobrazit vygene
 
 Konečně naše fotka začíná nějak vypadat. Nyní je čas si srovnat barvy tak, aby odpovídaly skutečnosti. K tomu slouží tento proces Color calibration.
 
-![](/img/pixi/output-010.jpg)
+![](/img/pixi/output-010.webp)
 
 *Výchozí hodnoty pro základní kalibraci barev jsou dostačující.*
 
 Je potřeba Pixi ukázat jak vypadá opravdu tmavý bod a jak světlý. Pro tmavý bod budeme muset vytvořit náhled. Ten jsme ještě nedělali a dělá se buď stiskem **ALT+N** a následně vyberete část fotky, kde chcete náhled vytvořit nebo stiskem ikonky **\_** v horní liště. Do náhledu pro kalibraci barev chceme vybrat pouze pozadí, náhled nemusí být nijak velký, ale také by neměl mít jen pár pixelů. Po vytvoření náhledu pozadí vybereme v okně Color calibration jako Dark reference právě náš náhled. Jako White reference poslouží zbytek naší fotky a tak můžeme nechat pole prázdné, v tom případě použije Pixi celou fotku. Po aplikaci na fotku si lze všimnout, že barvy se srovnaly.
 
-![](/img/pixi/output-011.jpg)
+![](/img/pixi/output-011.webp)
 
 *Náhled pozadí pro barevnou kalibraci, všimněte si, že záměrně neobsahuje žádné hvězdy ani mlhovinu.*
 
@@ -113,7 +113,7 @@ Je potřeba Pixi ukázat jak vypadá opravdu tmavý bod a jak světlý. Pro tmav
 
 Dalším krokem je neutralizace pozadí, k té nám poslouží náhled pozadí z předchozího kroku, po aplikaci se toho s fotkou moc nestane, ale je dobré ji dělat, protože "zamkne rgb kanály".
 
-![](/img/pixi/output-012.jpg)
+![](/img/pixi/output-012.webp)
 
 *Výchozí nastavení funguje i pro neutralizaci pozadí.*
 
@@ -129,26 +129,26 @@ V rámci příprav na dekonvoluci budeme používat několik procesů a kromě P
 
 Jednoduše otevřeme tento proces a začneme klikat na hvězdy. Ne však libovolně, ale volíme takové, které nejsou v saturaci, to lze poznat zrušením streče **CTRL+F12** nebo stisknutím ikonky **\_** pokud je hvězda byť jen trochu vidět, není vhodná pro PSF. Dobré je vybírat hvězdy ve středu pole, kde je menší šance projevení se vad optiky a dobrý počet vybraných hvězd je
 
-kolem 60. Po vybrání stiskněte tlačítko <Inline>/img/pixi/output-013.jpg</Inline> a otevře se vám okno s vaší průměrnou hvězdou. Okno minimalizujte a přesuňte bokem.
+kolem 60. Po vybrání stiskněte tlačítko <Inline>/img/pixi/output-013.webp</Inline> a otevře se vám okno s vaší průměrnou hvězdou. Okno minimalizujte a přesuňte bokem.
 
-![](/img/pixi/output-014.jpg)
+![](/img/pixi/output-014.webp)
 
 *Vybrané hvězdy by měly být samostatné, abychom nezkreslili výsledek jednou šišatou hvězdou.*
 
 ### Masky
 
-Masky jsou v Pixi velmi důležitá věc, která se hodí v mnoha procesech. Nyní si ukážeme jak vytvořit tu nejjednodušší, která nám zakryje tmavá místa na kterých se nehodí provádět dekonvoluci, protože bychom v podstatě zaostřovali šum. Masku vytvoříme extrakcí jasové složky z fotky kliknutím na ikonku <Inline>/img/pixi/output-015.jpg</Inline>. Do teď jsme pracovali pouze s lineárními fotkami a streč byl v podstatě pouze náhledem. Masku však musíme strečnout a dostat do nelineární podoby. To provedeme tak, že si otevřeme Histogram Transformation a zároveň Screen Transfer
+Masky jsou v Pixi velmi důležitá věc, která se hodí v mnoha procesech. Nyní si ukážeme jak vytvořit tu nejjednodušší, která nám zakryje tmavá místa na kterých se nehodí provádět dekonvoluci, protože bychom v podstatě zaostřovali šum. Masku vytvoříme extrakcí jasové složky z fotky kliknutím na ikonku <Inline>/img/pixi/output-015.webp</Inline>. Do teď jsme pracovali pouze s lineárními fotkami a streč byl v podstatě pouze náhledem. Masku však musíme strečnout a dostat do nelineární podoby. To provedeme tak, že si otevřeme Histogram Transformation a zároveň Screen Transfer
 
 
-function. V STF klikneme na ikonku <Inline>/img/pixi/output-016.jpg</Inline> a poté přetáhneme na HT, HT potom bez úprav aplikujeme na naši budoucí masku. Tím ji delinearizujeme (už zůstane permanentně střečlá). Nyní ji jen trochu rozmažeme, aby přechody na masce nebyly tak ostré pomocí Convolution. Jen proces otevřeme a rovnou bez změn nastavení aplikujeme. Nyní můžeme obrázek přetáhnout a aplikovat na naši fotku. Fotka zčervená, čím červenější místo na fotce je, tím více je chráněno maskou, kterou jsme vytvořili.
+function. V STF klikneme na ikonku <Inline>/img/pixi/output-016.webp</Inline> a poté přetáhneme na HT, HT potom bez úprav aplikujeme na naši budoucí masku. Tím ji delinearizujeme (už zůstane permanentně střečlá). Nyní ji jen trochu rozmažeme, aby přechody na masce nebyly tak ostré pomocí Convolution. Jen proces otevřeme a rovnou bez změn nastavení aplikujeme. Nyní můžeme obrázek přetáhnout a aplikovat na naši fotku. Fotka zčervená, čím červenější místo na fotce je, tím více je chráněno maskou, kterou jsme vytvořili.
 
-![](/img/pixi/output-017.jpg)
+![](/img/pixi/output-017.webp)
 
 Operace s maskou jsou následující. Pokud chci masku skrýt, stisknu **CTRL+K**. Pokud chci masku invertovat, stisknu **CTRL+SHIFT+I**. Masku jednoduše odstraním kliknutím na ikonku **\_** .
 
 ***Aplikovaná maska*** | ***Invertovaná maska*** | ***Skrytá maska***
 :-------------------------:|:-------------------------:|:-------------------------:
-![](/img/pixi/output-018.jpg) | ![](/img/pixi/output-019.jpg) | ![](/img/pixi/output-020.jpg)
+![](/img/pixi/output-018.webp) | ![](/img/pixi/output-019.webp) | ![](/img/pixi/output-020.webp)
 
 ### Star mask
 
@@ -156,13 +156,13 @@ Maskování hvězd je kapitola sama pro sebe a další položka na seznamu, kter
 
 Otevřeme si tedy proces Star mask a dáme se do práce.
 
-![](/img/pixi/output-021.jpg)
+![](/img/pixi/output-021.webp)
 
 *Výchozí nastavení pro vytvoření masky pro dekonvoluci.*
 
 Při použití správného nastavení se nám po chvilce otevře maska, která by měla obsahovat pouze pár nejjasnějších a hodně rozmazaných hvězd. Hvězdnou masku nikam neaplikujeme a jen ji minimalizujeme stranou.
 
-![](/img/pixi/output-022.jpg)
+![](/img/pixi/output-022.webp)
 
 *Vygenerovaná maska pro pomoc při dekonvoluci.*
 
@@ -170,11 +170,11 @@ Nyní máme připravené vše pro Dekonvoluci. Model naší průměrné hvězdy,
 
 Dekonvoluce patří k náročnějším procesům, takže její zpracování trvá déle, proto je nejlepší pro experimentování udělat jen malý náhled s oblastí, kterou chceme doostřit.
 
-![](/img/pixi/output-023.jpg)
+![](/img/pixi/output-023.webp)
 
 Dobrý počet iterací začíná na 50, více jak 100 se už moc nevyplatí dělat, protože na výsledek byste čekali půl dne a rozdíl by byl minimální. Pokud se kolem hvězd vytvoří černá kolečka, je potřeba hodnotu Global dark zvýšit. Pokud se naopak hvězdy zvětší a udělají se kolem nich bíle flíčky, je potřeba zmenšit hodnotu Global bright. Pro porovnání změny před a po lze využít klávesové zkratky **CTRL+SHIFT+Z**. Opakovaným tisknutím kláves můžete rychle překlikávat mezi původním obrázkem a provedenou změnou, protože občas nejsou změny moc markantní.
 
-![](/img/pixi/output-024.jpg)
+![](/img/pixi/output-024.webp)
 
 Potom co přijdeme na požadované nastavení můžeme náhled zavřít a dekonvoluci aplikovat na celou fotku. Nyní je dobrý čas na to dát si kafe, protože tento proces nějakou chvíli zabere.
 
@@ -184,7 +184,7 @@ Až po tento bod byla naše fotka lineární, poměry jasů objektů byly skute�
 
 Histogram Transformation je proces, který jsme si už ukázali a pokud nám jde jen o jednoduché delinearizování fotky, použijeme posuvníky.tak, aby pozadí moc nesvítilo, ale zároveň nebylo úplně černé (začátečníci často schovávají tímto způsobem šum, fotka pak nepůsobí přirozeně, protože i vesmírné pozadí trochu svítí a není nekonečně černé). Streč je lepší provádět v několika krocích, jak postupně roztahujeme histogram, je snazší se trefit posuvníkem tak, kam chceme.
 
-![](/img/pixi/output-025.jpg)
+![](/img/pixi/output-025.webp)
 
 ### Arcsinh stretch
 
@@ -194,7 +194,7 @@ posuvníku začneme fotku strečovat, když dosáhneme požadovaných výsledků
 
 Občas nejlepší výsledek nese kombinace těchto dvou strečů, k té je třeba využít Pixelmath na sečtení obou snímků.
 
-![](/img/pixi/output-026.jpg)
+![](/img/pixi/output-026.webp)
 
 ## **Pixelmath**
 
@@ -202,7 +202,7 @@ Velice užitečný nástroj zvládající základní matematické operace, ale i
 
 Pro jednoduchost si pojmenujeme naše v předchozím kroku strečlé fotky "a" a "b". Nyní nám stačí do horního řádku napsat "a+b", už jen musíme zaškrtnout **rescale**, aby se poměry jasů pouze nesečetli a my nezůstali s 2x tak jasnou, přepálenou fotkou.
 
-![](/img/pixi/output-027.jpg)
+![](/img/pixi/output-027.webp)
 
 ## **SCNR**
 
@@ -220,7 +220,7 @@ Posledním krokem je převrácení masky, aby zakrývala jasné části, to prov
 
 Nyní konečně můžeme spustit GreyCstoration, opět je dobre prvně aplikovat redukci šumu na náhled, pro vyladění nastavení, výchozí nastavení většinou funguje dobře, takže se můžeme odpíchnout odtud.
 
-![](/img/pixi/output-028.jpg)
+![](/img/pixi/output-028.webp)
 
 ## **Morphological transformation**
 
@@ -228,7 +228,7 @@ Nyní se dostáváme k obtížnému místu, redukce hvězd bývá velice efektiv
 
 Ukážeme si ten nejjednodušší způsob redukce hvězd a to Morphological selection. Nejprve si vytvoříme masku hvězd, Noise treshold nastavíme na hodnotu okolo 0.45 - 0.55. Dále všechny hodnoty Structure growth snížíme na 0 a Smoothness nastavíme na 4-5. Potom už jen zaškrtneme Contours a vygenerujeme masku. Tu aplikujeme na fotku a otevřeme **MT**. Tady vybereme Morphological selection a hodnotu Selection nastavíme na 0.25, čím nižší od 0.50, tím agresivnější je redukce, naopak hodnoty vyšší než 0.50 hvězdy nafouknou. Structuring element bybereme 7 a klikneme na ikonku diamantu, pak už jen stačí aplikovat na fotku.
 
-![](/img/pixi/output-029.jpg)
+![](/img/pixi/output-029.webp)
 
 Máme hotovo, nyní uložíme fotku jako 16bit tiff a pošleme pro finální doladění do Photoshopu.
 

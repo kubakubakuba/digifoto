@@ -10,19 +10,19 @@ Magic lantern je open-source firmware pro DSLR fotoaparáty Canon, který přin�
 
 Stáhněte si verzi určeného pro typ vaší zrcadlovky [ZDE](https://builds.magiclantern.fm/) (pozor například na rozdílné verze pro 6D MkI a MkII), pozor také na potřebnou verzi originálního Canon firmware (například právě pro 6D je to verze 1.1.6).
 
-![](/img/magic/dl.jpg)
+![](/img/magic/dl.webp)
 
 Stažený zip vyextrahujete do root složky SD karty fotoaparátu a kartu vložte zpět.
 
-![](/img/magic/copy.jpg)
+![](/img/magic/copy.webp)
 
 V nastavení fotoaparátu přejděte do menu a klikněte na firmware version a update.
 
-<Inline style="width: 49%">/img/magic/fwversion.jpg</Inline> <Inline style="width: 49%">/img/magic/update.jpg</Inline>
+<Inline style="width: 49%">/img/magic/fwversion.webp</Inline> <Inline style="width: 49%">/img/magic/update.webp</Inline>
 
 Pokud by se aktuální verze firmware neshodovala s vyžadovanou, stáhněte si správnou verzi [ZDE](https://eoscard.pel.hu/), pro 6d tedy stáhněte soubor [eos6d-v116-win.zip](https://pel.hu/down/eos6d-v116-win.zip)
 
-![Canon FW download](/img/magic/fwdl.jpg)
+![Canon FW download](/img/magic/fwdl.webp)
 
 ten stejně jako magic rozzipujte na SD kartu fotoaparátu (předtím ji smažte). A ve stejném menu fotoaparátu proveďte upgrade / downgrade firmware. Zrcadlovka se restartuje, možná bude nutné vyjmout baterii, pokud vám to napíše.
 
@@ -36,7 +36,7 @@ EOS 600D | [magiclantern.2025-06-20.600D.102.zip](https://builds.magiclantern.fm
 
 Po úspěšné instalaci se vám zobrazí tato zpráva
 
-![](/img/magic/new-installer.png)
+![](/img/magic/new-installer.webp)
 
 zrcadlovku stačí restartovat, pro odinstalaci magic lantern, počkejte než časovač dosáhne nuly.
 
@@ -46,10 +46,10 @@ Do menu magic lantern se dostanete po zmáčknutí tlačítka koše (na různýc
 
 ### Intervalometr
 
-Nejdůležitější obrazovka v magic lantern pro nás bude obrazovka **Shoot** s ikonkou <Inline style="width: 5%">/img/magic/fotoico.jpg</Inline>,
+Nejdůležitější obrazovka v magic lantern pro nás bude obrazovka **Shoot** s ikonkou <Inline style="width: 5%">/img/magic/fotoico.webp</Inline>,
 zde budeme využívat nastavení **Intervalometer** a **Bulb timer**.
 
-![menu intervalometr](/img/magic/intervalometer.jpg)
+![menu intervalometr](/img/magic/intervalometer.webp)
 
 Pohyb v menu je šipkami, zapnutí funkce (zelená) je pomocí tlačítka *ok*, změna nastavení jednotlivých funkcí je pomocí tlačítka *Q* (nebo *Av* na 100D).
 
@@ -67,12 +67,12 @@ V menu lze nastavit možnost počátku focení na on exit, focení tedy začne p
 
 Intervalometr lze pozastavit navštívením galerie, obnovení pak proběhne naštívením menu přes koš, a jeho vypnutí.
 
-<Inline style="width: 49%">/img/magic/intervalometer_settings.jpg</Inline> <Inline style="width: 49%">/img/magic/bulb_timer.jpg</Inline>
+<Inline style="width: 49%">/img/magic/intervalometer_settings.webp</Inline> <Inline style="width: 49%">/img/magic/bulb_timer.webp</Inline>
 
 ### Focení blesků
 
 S magic lantern je i jednodušší focení blesků, je v něm totiž nastavení *Motion detect*
 
-<Inline style="width: 49%">/img/magic/motion_detect.jpg</Inline> <Inline style="width: 49%">/img/magic/motion_detect_settings.jpg</Inline>
+<Inline style="width: 49%">/img/magic/motion_detect.webp</Inline> <Inline style="width: 49%">/img/magic/motion_detect_settings.webp</Inline>
 
 kde za vás magic bude mačkat spoušť pokud detekuje změnu expozice (nastavení *Expo. change*), je ale nutno vyladit trigger level, který určuje jak moc velká změna vyvolá stisknutí spouště.

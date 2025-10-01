@@ -2,6 +2,8 @@
 outline: deep
 ---
 
+GraXpert je program, využívající natrénovaných ...
+
 Testing
 
 ```cpp
