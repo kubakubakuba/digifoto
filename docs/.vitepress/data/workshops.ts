@@ -31,7 +31,7 @@ export const workshops: Workshop[] = [
         { title: 'Lightroom', url: '/lightroom/' },
         { title: 'Výpisky', url: '/pdf/Základy focení.pdf' },
       ],
-      youtube: 'https://youtu.be/Vj4buoZ_Nuc',
+      youtube: 'https://www.youtube.com/embed/Vj4buoZ_Nuc',
     },
   },
   {
