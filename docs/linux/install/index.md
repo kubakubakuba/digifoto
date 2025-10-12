@@ -190,7 +190,7 @@ docker compose up
 docker compose up -d #bez výpisu, lepší nejdříve spustit hodní příkaz
 ```
 
-Po automatickém stažení windows image se windows nainstaluje a bude dostupný na [localhost:8006](http://localhost:8006). Do tohoto systému nainstaluje všechny potřebné aplikace, jako je Photoshop a Lightroom, instalační soubory stačí zkopírovat do sdílené složky definované v `compose.yml` (v příkladu je to `Documents/winapps/`).
+Po automatickém stažení windows image se windows nainstaluje a bude dostupný na `localhost:8006`. Do tohoto systému nainstaluje všechny potřebné aplikace, jako je Photoshop a Lightroom, instalační soubory stačí zkopírovat do sdílené složky definované v `compose.yml` (v příkladu je to `Documents/winapps/`).
 
 > [!IMPORTANT] CameraRaw - důležité
 Pro Photoshop je nutné nainsalovat starší verzi CameraRaw pluginu, jelikož nová vyžaduje hardwarovou akceleraci, která není podporovaná.
