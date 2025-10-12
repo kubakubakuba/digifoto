@@ -87,7 +87,7 @@ Pokud vás zajímá víc, tak si doporučuji přečíst něco o [expozičním tr
 
 **Bahtinova maska**
 <Inline style="width: 70%; display: block; margin: auto;">/img/zrcadlovky/how-make-bahtinov-mask-7511d1c.webp</Inline>
-* Udělátko která nám může pomoc s ostřením objektivu na hvězdy. Když jí dáme před objektiv zobrazí se kříž vzniklý difrakcí světla, a jedná čárka navíc, která se pohybuje s mírou zaostření. Správně zaostřeno máme, když se nám podaří tuto čárku umístit přesně do středu kříže.
+* Udělátko která nám může pomoct s ostřením objektivu na hvězdy. Když jí dáme před objektiv zobrazí se kříž vzniklý difrakcí světla, a jedná čárka navíc, která se pohybuje s mírou zaostření. Správně zaostřeno máme, když se nám podaří tuto čárku umístit přesně do středu kříže.
 <Inline>/img/zrcadlovky/bahtinov-mask-focus-calibration-dwarf-ii.webp</Inline> 
 * Generátor bahtinových mask pro 3D tisk [zde](https://skeye.rocks/tools/mask/) a do svg pro tisk [zde](https://satakagi.github.io/tribahtinovWebApps/Bahtinov.html).
 
@@ -159,13 +159,13 @@ Kdyby se senzor automaticky čistil při vypnutí/zapnutí, změnil by tak rozpr
 
 ### Méně potřebná
 
-**Změňte nastavení picture style**
+**Změňte nastavení picture style (není potřeba nastavovat)**
 
 <Inline style="width: 49%">/img/zrcadlovky/picture_style.jpg</Inline>
 
-Nastavení do dobré dát na neutrální (dá se změnit i přes domovskou obrazovku).
+Nastavení je dobré dát na neutrální (dá se změnit i přes domovskou obrazovku).
 
-**Změňte nastavení vyvážení bílé (není potřeba)**
+**Změňte nastavení vyvážení bílé (není potřeba nastavovat)**
 
 Není nutně potřeba nastavovat, ale pokud budete mít například modifikovaný foťák se kterým fotíte přes den, může se hodit manuální nastavení vyvážení bílé. Jde to i ignorovat a pak všechno manuálně sladit v Lightroomu.
 

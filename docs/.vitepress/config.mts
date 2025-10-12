@@ -67,16 +67,20 @@ export default defineConfig({
       },
       {
         text: 'Úpravy fotek v Lightroomu',
-        link: '/photoshop/',
-        items: [
-          { text: 'RapidRAW', link: '/lightroom/rapidraw/'},
-          { text: 'RawTherapee', link: '/lightroom/rawtherapee/' }
-        ]
+        link: '/photoshop/'
       },
       {
         text: 'Planetární astrofoto',
         link: '/planety/'
-      }
+      },
+      {
+        text: 'Linux',
+        link: '/linux/install/',
+        items: [
+          { text: 'RapidRAW', link: '/linux/rapidraw/'},
+          { text: 'RawTherapee', link: '/linux/rawtherapee/' }
+        ]
+      },
     ],
 
     socialLinks: [

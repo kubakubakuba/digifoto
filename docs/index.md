@@ -66,17 +66,11 @@ features:
     details: Návody pro rychlé úpravy fotek v Adobe LIghtroom Classic
     link: /lightroom/
 
-  - title: Úpravy fotek v RapidRaw
+  - title: Linux
     icon:
-      src: /img/io.github.CyberTimon.RapidRAW.png
-    details: Zpracování fotek v RapidRAW, FOSS alternativě k Adobe Lightroom
-    link: /lightroom/rapidraw
-
-  - title: Úpravy fotek v RawTherapee
-    icon:
-      src: /img/RawTherapee_logo-circle.svg
-    details: Zpracování fotek v RawTherapee, FOSS alternativě k Adobe Lightroom
-    link: /lightroom/rawtherapee
+      src: /img/Tux.svg
+    details: Instalace software na Linuxu a jejich FOSS alternativy
+    link: /linux/
 
 ---
 
