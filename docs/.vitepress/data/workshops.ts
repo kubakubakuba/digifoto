@@ -15,7 +15,7 @@ export interface Workshop {
 export const workshops: Workshop[] = [
   {
     name: 'Úvod do fotografie',
-    date: '30. 09. 2025',
+    date: '30. 09. 2025, 18:00',
     sortDate: '2025-09-30',
     summary: 'Naučíme se úplné základy o focení a lehkém zpracování fotek.',
     link: '/workshopy/intro',
@@ -36,16 +36,26 @@ export const workshops: Workshop[] = [
   },
   {
     name: 'Krajinářská astrofotografie',
-    date: 'Listopad 2025',
-    sortDate: '2025-11-01',
+    date: '11. 11. 2025, 18:00',
+    sortDate: '2025-11-11',
     summary: 'Focení a zpracování krajinářské astrofotografie.',
     link: '/workshopy/krajinky',
     details: {
       name: 'Krajinářská astrofotografie',
-      summary: 'Workshop se zaměřuje na postupy focení, a následné zpracovávání krajinářské astrofotografie.',
+      summary: `Workshop se zaměřuje na postupy focení, a následné zpracovávání krajinářské astrofotografie.
+- Jak vůbec funguje senzor
+- Co je senzor
+- Bitová hloubka
+- Kvantová účinnost
+- Bayerova maska
+- Šum
+- Typy korekčních snímků
+- Focení krajinek
+- Photoshop
+- Sequator`,
       links: [
-        { title: 'Skripty a procesy', url: '#' },
-        { title: 'Ukázková data', url: '#' },
+        { title: 'Krajinky', url: '/krajinky/' },
+        //{ title: 'Ukázková data', url: '#' },
       ],
       //youtube: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
     },
