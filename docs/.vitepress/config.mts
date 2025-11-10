@@ -57,10 +57,10 @@ export default defineConfig({
         text: 'GraXpert',
         link: '/graxpert/'
       },
-      {
+      /*{
         text: 'Seti Astro\'s Suite',
         link: '/seti/'
-      },
+      },*/
       {
         text: 'Úpravy fotek v PS',
         link: '/photoshop/'

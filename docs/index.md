@@ -43,11 +43,11 @@ features:
     details: Odšumění, dekonvoluce a odstranění gradientů pomocí GraXpertu
     link: /graxpert/
 
-  - title: Seti Astro's Suite
-    icon:
-      src: /img/astrosuite.png
-    details: Zpracování fotek pomocí nástrojů od Seti Astro
-    link: /seti/
+#  - title: Seti Astro's Suite
+#    icon:
+#      src: /img/astrosuite.png
+#    details: Zpracování fotek pomocí nástrojů od Seti Astro
+#    link: /seti/
 
   - title: Planetární astrofoto
     icon: 🪐
