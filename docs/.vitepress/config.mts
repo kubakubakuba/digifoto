@@ -28,6 +28,7 @@ export default defineConfig({
           { text: 'Ovládání zrcadlovky', link: '/zaklady/zrcadlovky' },
           { text: 'Magic lantern', link: '/zaklady/magic' },
           { text: 'Astronomické vybavení', link: '/zaklady/vybaveni' },
+          { text: 'Od fotonu po pixel', link: '/zaklady/odfpp' },
         ]
       },
       {

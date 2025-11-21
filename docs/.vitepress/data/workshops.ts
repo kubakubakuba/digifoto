@@ -55,9 +55,9 @@ export const workshops: Workshop[] = [
 - Sequator`,
       links: [
         { title: 'Krajinky', url: '/krajinky/' },
-        { title: 'Ukázková data', url: 'https://omega.swpelc.eu/expa/digi/ws2data.php'}
+        { title: 'Od fotonu po pixel', url: '/zaklady/odfpp/'}
       ],
-      //youtube: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+      youtube: 'https://www.youtube.com/embed/mtZitWnGyas',
     },
   },
     // {

@@ -22,4 +22,9 @@ features:
     icon: 🔭
     details: Základní informace se kterými se můžete setkat při používání astrofoto techniky
     link: /zaklady/vybaveni/
+
+  - title: Od fotonu po pixel
+    icon: 🖼️
+    details: Co všechno se ve foťáku děje při focení?
+    link: /zaklady/odfpp/
 ---
