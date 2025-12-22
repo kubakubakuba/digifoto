@@ -60,6 +60,21 @@ export const workshops: Workshop[] = [
       youtube: 'https://www.youtube.com/embed/mtZitWnGyas',
     },
   },
+  {
+    name: 'Pokročilejší zpracování astrofotografií',
+    date: '22. 12. 2025, 18:00',
+    sortDate: '2025-12-22',
+    summary: 'Zpracovaní krajinek a typy fotografických sestav.',
+    link: '/workshopy/krajinky_zpracovani',
+    details: {
+      name: 'Hugin, zpracování ve PhotoShopu a typy astrofotografických sestav',
+      summary: `Workshop se zaměřuje na focení, zpracovaní fotografií a jejich spojení v programu Hugin. Taktéž si probereme jaké typy astrofotografických sestav existují.`,
+      links: [
+        { title: 'Hugin', url: 'https://hugin.sourceforge.io/' }
+      ],
+      youtube: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    },
+  },
     // {
     //   name: 'Zpracování fotek v PixInsight',
     //   date: 'Listopad 2025',
