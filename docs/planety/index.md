@@ -4,7 +4,7 @@ outline: deep
 
 # Planetární Astrofoto
 
-***Autor předpokládá, že jste četli "[Od fotonu po pixel](/zaklady/odfpp)"***
+***Autor předpokládá, že jste četli "[Od fotonu po pixel](/zaklady/odfpp/)"***
 
 ## Úvod a srovnání
 
