@@ -75,6 +75,21 @@ export const workshops: Workshop[] = [
       youtube: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
     },
   },
+  {
+    name: 'Planetární astrofoto',
+    date: '24. 03. 2026, 19:00',
+    sortDate: '2026-03-24',
+    summary: 'Focení a zpracování planetární astrofotografie.',
+    link: '/workshopy/planety',
+    details: {
+      name: 'Planetární astrofoto',
+      summary: `Focení a zpracování planetární astrofotografie.`,
+      links: [
+        { title: 'Návod na focení planetárního astofota', url: '/planety/' }
+      ],
+      youtube: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    },
+  },
     // {
     //   name: 'Zpracování fotek v PixInsight',
     //   date: 'Listopad 2025',
