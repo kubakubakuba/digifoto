@@ -87,7 +87,7 @@ export const workshops: Workshop[] = [
       links: [
         { title: 'Návod na focení planetárního astofota', url: '/planety/' }
       ],
-      youtube: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+      youtube: 'https://www.youtube.com/embed/PFZQnHoSMQ8',
     },
   },
     // {
