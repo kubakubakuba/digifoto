@@ -85,7 +85,14 @@ export const workshops: Workshop[] = [
       name: 'Planetární astrofoto',
       summary: `Focení a zpracování planetární astrofotografie.`,
       links: [
-        { title: 'Návod na focení planetárního astofota', url: '/planety/' }
+        { title: 'Návod na focení planetárního astofota', url: '/planety/' },
+
+        { title: 'AstroSurface', url: 'https://astrosurface.com/pageuk.html' },
+        { title: 'AutoStakkert!', url: 'https://www.autostakkert.com/wp/download/' },
+        { title: 'SharpCap', url: 'https://www.sharpcap.co.uk/sharpcap/downloads' },
+        { title: 'PIPP', url: 'https://pipp.software.informer.com/' },
+        { title: 'ImPPG', url: 'https://greatattractor.github.io/imppg/' }
+
       ],
       youtube: 'https://www.youtube.com/embed/PFZQnHoSMQ8',
     },
