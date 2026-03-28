@@ -25,15 +25,19 @@ export default defineConfig({
       {
         text: 'Základy',
         items: [
-          { text: 'Ovládání zrcadlovky', link: '/zaklady/zrcadlovky' },
-          { text: 'Magic lantern', link: '/zaklady/magic' },
-          { text: 'Astronomické vybavení', link: '/zaklady/vybaveni' },
-          { text: 'Od fotonu po pixel', link: '/zaklady/odfpp' },
+          { text: 'Ovládání zrcadlovky', link: '/zaklady/zrcadlovky/' },
+          { text: 'Magic lantern', link: '/zaklady/magic/' },
+          { text: 'Astronomické vybavení', link: '/zaklady/vybaveni/' },
+          { text: 'Od fotonu po pixel', link: '/zaklady/odfpp/' },
         ]
       },
       {
         text: 'Krajinky',
         link: '/krajinky/'
+      },
+      {
+        text: 'Planetární astrofoto',
+        link: '/planety/'
       },
       {
         text: 'S.A.J.R.I.',
@@ -68,11 +72,7 @@ export default defineConfig({
       },
       {
         text: 'Úpravy fotek v Lightroomu',
-        link: '/photoshop/'
-      },
-      {
-        text: 'Planetární astrofoto',
-        link: '/planety/'
+        link: '/lightroom/'
       },
       {
         text: 'Linux',
