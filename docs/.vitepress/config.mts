@@ -75,11 +75,12 @@ export default defineConfig({
         link: '/lightroom/'
       },
       {
-        text: 'Linux',
+        text: 'Adobe na Linuxu',
         link: '/linux/install/',
         items: [
           { text: 'RapidRAW', link: '/linux/rapidraw/'},
-          { text: 'RawTherapee', link: '/linux/rawtherapee/' }
+          { text: 'RawTherapee', link: '/linux/rawtherapee/' },
+          { text: 'GPU akcelerace v PixInsightu', link: '/linux/gpu/' }
         ]
       },
     ],

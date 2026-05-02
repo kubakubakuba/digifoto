@@ -25,4 +25,10 @@ features:
     details: Zpracování fotek v RawTherapee, FOSS alternativě k Adobe Lightroom
     link: /linux/rawtherapee
 
+  - title: GPU akcelerace na Linuxu
+    icon:
+      src: /img/nvidialogo.png
+    details: GPU akcelerace pro AI nástroje v PixInsightu na Arch Linuxu a Blackwell GPU
+    link: /linux/gpu
+
 ---
