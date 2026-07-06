@@ -25,11 +25,22 @@ features:
     details: Návody na focení deepsky objektů pomocí programu N.I.N.A.
     link: /nina/
 
+  - title: Planetární astrofoto
+    icon: 🪐
+    details: Návody pro zpracování planetární astrofotografie
+    link: /planety/
+    
   - title: Zpracování fotek v PixInsightu
     icon: 
       src: /img/pixilogo.png
-    details: Návody pro zpracování fotek v PixInsightu
+    details: Základní návody pro zpracování fotek v PixInsightu
     link: /pixinsight/
+    
+  - title: Master PixInsight
+    icon: 
+      src: /img/masterpixi.webp
+    details: Pokročilejší návody pro zpracování fotek v PixInsightu
+    link: /master_pixinsight/nastaveni/
 
   - title: Zpracování fotek v Sirilu
     icon:
@@ -48,11 +59,6 @@ features:
 #      src: /img/astrosuite.png
 #    details: Zpracování fotek pomocí nástrojů od Seti Astro
 #    link: /seti/
-
-  - title: Planetární astrofoto
-    icon: 🪐
-    details: Návody pro zpracování planetární astrofotografie
-    link: /planety/
 
   - title: Úpravy fotek v PS
     icon:

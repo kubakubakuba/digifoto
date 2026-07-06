@@ -55,6 +55,12 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Master PixInsight',
+        items: [
+          { text: 'Nastavení', link: '/master_pixinsight/nastaveni/'},
+        ]
+      },
+      {
         text: 'Siril',
         link: '/siril/'
       },
