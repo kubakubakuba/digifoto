@@ -4,7 +4,12 @@ Návodem procházejte postupně jak je napsaný, žádné kroky nepřeskakujte, 
 
 ## Instalace
 
-Z disku si nainstalujte instalačku `PI-windows-x64-1.9._..._.exe`, po instalaci jakákoliv okna zavřete. Soubor `PixinsightLicense` si přetáhněte do `...\Appdata\Roaming\Pleiades\` (tam se dostanete pomocí napsání `%appdata%` do systémového vyhledávače). Nyní byste měli být schopní úspěšně spustit PixInsight. Po prvním spuštěním prosím ignorujte upozornění o chybějící Thread Performance Analysis a automatický update, k nim se dostaneme později.
+Z disku si nainstalujte instalačku k vašemu systému (Windows, MacOS, Linux), po instalaci jakákoliv okna zavřete. Soubor `PixinsightLicense` si přetáhněte do:
+- Pro Windows: `...\Appdata\Roaming\Pleiades\` (tam se dostanete pomocí napsání %appdata% do systémového vyhledávače).
+- Pro MacOS: `Macintosh HD > Users > user > Library > PixInsight`, složka `Library` je skrytá, zobrazíte ji pomocí zkratky `Cmd + Shift + .`.
+- Pro Linux: `~/.PixInsight/`
+
+Nyní byste měli být schopní úspěšně spustit PixInsight. Po prvním spuštěním prosím ignorujte upozornění o chybějící Thread Performance Analysis a automatický update, k nim se dostaneme později.
 
 ## Dependencies
 
