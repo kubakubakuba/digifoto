@@ -20,48 +20,48 @@ V panelu equipment najdete všechno potřebné vybavení, které jste k ovládac
 
 Na panelu kamery zapneme/vypneme chlazení dané kamery, případně můžeme změnit její nastavení. Je dobré dát nějaký čas pro zchlazení zahřátí (například 10 minut), aby se nám kamera nezamlžila nebo jí to neuškodilo.
 
-![1](/img/nina/1.png)
+![1](/img/nina/1.avif)
 
 ### Focuser panel
 
 Na panelu focuser ho připojíme a můžeme s ním hýbat.
 
-![2](/img/nina/2.png)
+![2](/img/nina/2.avif)
 
 ### Rotator panel
 
 Připojíme manuální rotátor, nebo automatický pokud ho na sestavě máme.
 
-![3](/img/nina/3.png)
+![3](/img/nina/3.avif)
 
 ### Mount panel
 
 Připojíme montáž (iOptron spustí iOptron commander, skywatcher spustí EQASCOM EQMOD, obojí otevře další vyskakovací okno). Montáž pak jde ovládat buď přímo v nině, nebo v této externí aplikaci.
 
-![4](/img/nina/4.png)
+![4](/img/nina/4.avif)
 
 iOptron commander:
 
-![5](/img/nina/5.png)
+![5](/img/nina/5.avif)
 
 ### Guiding
 
 Na panelu guiding připojíme PHD2, vyskočí další okno. V něm nastavíme parametry guidingu (délku jedné expozice), a spustíme looping, vybereme hvězdu a spustíme guiding.
 
-![6](/img/nina/6.png)
+![6](/img/nina/6.avif)
 
 ## Panel Imaging
 
 Panel imaging je jeden z hlavních panelů se kterým při pozorování budete interagovat, zobrazuje pořízené expozice, ovládá teleskop a všechno ostatní.
 
-![7](/img/nina/7.png)
+![7](/img/nina/7.avif)
 
 
 ## Panel Framing
 
 Na panelu framing vybereme který objekt chceme fotit, po potvrzení získáme jeho souřadnice. Z vybraného katalogu v pravém horním rohu se nám pak stáhne fotografie (případně z lokálního planet. softw.). Vybereme jaký framing objektu chceme, případně natočíme kameru. Na objekt potom najedeme a přidáme ho do sekvence pro focení.
 
-![8](/img/nina/8.png)
+![8](/img/nina/8.avif)
 
 
 ## Panel Advanced Sequencer
@@ -72,10 +72,10 @@ Nastavení a program který jsme vytvořili lze uložit do .json souboru, který
 
 Z panelu framing lze do tohoto panelu přímo naimportovat framing daného objektu, případně i mozaiky kterou nám tento panel vytvoří.
 
-![9](/img/nina/9.png)
+![9](/img/nina/9.avif)
 
 ## Panel Flat Wizard
 
 Na panelu Flat Wizard pořídíme flaty a dark flaty, které nám pomohou s korekcí pořízených fotografií. Automaticky nastaví expozici tak, aby byla v polovině histogramu a pořídí dané množství expozic.
 
-![10](/img/nina/10.png)
+![10](/img/nina/10.avif)
