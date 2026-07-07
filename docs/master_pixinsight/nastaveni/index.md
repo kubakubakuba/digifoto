@@ -50,3 +50,12 @@ Pravým kliknutím na plochu PixInsight navigujte na `Process Icons > Load Proce
 V procesu `Process > Gaia` je v pravém dolním rohu ikonka nářadí, kliknutím na ni vyskočí okno `Gaia Preferences`. Nahoře si zvolte `Data Release: Gaia DR3`, pomocí tlačítka `Select` si zvolte čtyři soubory ve své složce `PixInsight > Gaia`. Stejným způsobem si ty samé soubory nahrajte do `Data Release: Gaia DR3/SP`. Uložte pomocí OK a **aplikujte pomocí kolečka**.
 
 V procesu `Process > Multiscale Gradient Correction` opět klikněte na tlačítko nářadí a přidejte dva soubory databáze MARS umístěné ve vaší složce `PixInsight > Mars`. Zde kolečko klikat nemusíte.
+
+
+## Blokace připojení
+
+Jelikož jsme paranoidní co se šíření licensí týče a PixInsight díky nainstalovaným Gaia souborům k žádnému skriptu či procesu co budeme používat Internet nepotřebuje, zablokujeme jeho připojení. Na Windows si vyhledejte umístění aplikace PixInsight, které by mělo být `C:\Program Files\PixInsight\bin\PixInsight.exe`. Otevřete si Windows firewall a Defender nastavení, klikněte na Outbound Rules, New Rule. V okně postupně volte:
+- Rule Type: Program
+- Program: zde si vložte cestu včetně názvu a koncovky programu, tedy např. `C:\Program Files\PixInsight\bin\PixInsight.exe`
+- Action: Block the connection
+- Profile: zvolte vše.
