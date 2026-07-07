@@ -51,6 +51,6 @@ V procesu `Process > Gaia` je v pravém dolním rohu ikonka nářadí, kliknutí
 
 V procesu `Process > Multiscale Gradient Correction` opět klikněte na tlačítko nářadí a přidejte dva soubory databáze MARS umístěné ve vaší složce `PixInsight > Mars`. Zde kolečko klikat nemusíte.
 
-## GPU Akcelerace StarNet a DeepSNR
+## GPU Akcelerace StarNet a DeepSNR
 
 Následujte přímo oficiální návod na [stránkách StarNet](https://starnetastro.com/documentation/windows-cuda/). Pro mne fungovala druhá metoda přímé instalace knihoven.
