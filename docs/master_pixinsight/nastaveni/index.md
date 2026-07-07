@@ -51,11 +51,6 @@ V procesu `Process > Gaia` je v pravém dolním rohu ikonka nářadí, kliknutí
 
 V procesu `Process > Multiscale Gradient Correction` opět klikněte na tlačítko nářadí a přidejte dva soubory databáze MARS umístěné ve vaší složce `PixInsight > Mars`. Zde kolečko klikat nemusíte.
 
+## GPU Akcelerace StarNet a DeepSNR
 
-## Blokace připojení
-
-Jelikož jsme paranoidní co se šíření licensí týče a PixInsight díky nainstalovaným Gaia souborům k žádnému skriptu či procesu co budeme používat Internet nepotřebuje, zablokujeme jeho připojení. Na Windows si vyhledejte umístění aplikace PixInsight, které by mělo být `C:\Program Files\PixInsight\bin\PixInsight.exe`. Otevřete si Windows firewall a Defender nastavení, klikněte na Outbound Rules, New Rule. V okně postupně volte:
-- Rule Type: Program
-- Program: zde si vložte cestu včetně názvu a koncovky programu, tedy např. `C:\Program Files\PixInsight\bin\PixInsight.exe`
-- Action: Block the connection
-- Profile: zvolte vše.
+Následujte přímo oficiální návod na [stránkách StarNet](https://starnetastro.com/documentation/windows-cuda/). Pro mne fungovala druhá metoda přímé instalace knihoven.
