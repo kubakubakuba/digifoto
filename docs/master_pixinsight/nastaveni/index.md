@@ -50,3 +50,7 @@ Pravým kliknutím na plochu PixInsight navigujte na `Process Icons > Load Proce
 V procesu `Process > Gaia` je v pravém dolním rohu ikonka nářadí, kliknutím na ni vyskočí okno `Gaia Preferences`. Nahoře si zvolte `Data Release: Gaia DR3`, pomocí tlačítka `Select` si zvolte čtyři soubory ve své složce `PixInsight > Gaia`. Stejným způsobem si ty samé soubory nahrajte do `Data Release: Gaia DR3/SP`. Uložte pomocí OK a **aplikujte pomocí kolečka**.
 
 V procesu `Process > Multiscale Gradient Correction` opět klikněte na tlačítko nářadí a přidejte dva soubory databáze MARS umístěné ve vaší složce `PixInsight > Mars`. Zde kolečko klikat nemusíte.
+
+## GPU Akcelerace StarNet a DeepSNR
+
+Následujte přímo oficiální návod na [stránkách StarNet](https://starnetastro.com/documentation/windows-cuda/). Pro mne fungovala druhá metoda přímé instalace knihoven.
