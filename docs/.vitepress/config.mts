@@ -58,6 +58,7 @@ export default defineConfig({
         text: 'Master PixInsight',
         items: [
           { text: 'Nastavení', link: '/master_pixinsight/nastaveni/'},
+          { text: 'Klávesové zkratky', link: '/master_pixinsight/keybinds/'},
         ]
       },
       {
