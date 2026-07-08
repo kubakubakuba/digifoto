@@ -35,6 +35,14 @@ Všechno obecné nastavení co se týče PixInsight jako aplikace najdete v `Edi
 - V `Security` zapněte `Allow insecure update repositories`.
 - V `Miscellaneous Image Window Settings` zvyšte `Cursor tolerance` např. na 8 px, popř. na hodnotu která vám vyhovuje. Moje osobní preference je také změnit `Wheel direction` na `Forward`, tedy když scrollujete kolečkem na myši od sebe, tak do fotky zoomujete a naopak, podobně pak na touchpadu. Pokud si všimnete, že jste zvyklí naopak, tak si to změňte. Dále si ve stejném okně také zapněte `Use 24-bit Screen Transfer Function LUTs by default`.
 
+## Readout Options
+
+Pokud máte na ploše PixInsight otevřenou fotku, a najedete na ni kurzorem, v dolní liště se zobrazí některé údaje včetně výčtu pixelových hodnot - to co přesně se zobrazí a jak můžete měnit v `Edit > Readout Options`. Tam si především změňte `Normalized real range - resolution:` na `1e-08`. **Uložte pomocí kolečka** vlevo dole.
+
+## Nastavení RAW formátu
+
+Abychom viděli RAW fotky ze zrcadlovek v tom nejvíce "raw" stavu, tedy nedebayernuté, lineární atd; běžte do `View > Explorer Windows > Format Explorer`, kde zvolíte `RAW` formát, poté `Edit Preferences`, klikněte na `Pure Raw` a potvrďte pomocí `OK`.
+
 ## Update PixInsight a instalace externích modulů
 
 V `Resources > Updates > Manage Repositories` klikněte `Load` a navigujte do své složky `PixInsight` a vyberte soubor `repositories.txt`, potvrďte pomocí OK.
