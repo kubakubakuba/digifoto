@@ -45,7 +45,11 @@ Abychom viděli RAW fotky ze zrcadlovek v tom nejvíce "raw" stavu, tedy nedebay
 
 ## Update PixInsight a instalace externích modulů
 
-V `Resources > Updates > Manage Repositories` klikněte `Load` a navigujte do své složky `PixInsight` a vyberte soubor `repositories.txt`, potvrďte pomocí OK.
+V `Resources > Updates > Manage Repositories` klikněte `Load` a navigujte do své složky `PixInsight` a vyberte soubor `repositories.txt`, potvrďte pomocí OK. V něm jsou kromě jiného taky zapsány některé externí procesy, které budeme používat, jmenovitě
+- StarNet,
+- DeepSNR,
+- Generalized Hyperbolic Stretch,
+- Blink2.
 
 Poté přejděte do `Resources > Update > Check for Updates`, klikněte na `Select All` a `Apply`. Po stažení vypněte PixInsight, kdy na vás vyskočí okno pro potvrzení instalace, tam nechejte zapnuté Restart PixInsight. PixInsight se načte a měl by vám vzkázat, že vše proběhlo v pořádku.
 
