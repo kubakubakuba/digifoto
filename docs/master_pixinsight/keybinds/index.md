@@ -2,6 +2,9 @@
 
 | Zkratka | Co dělá |
 | ----------- | ----------------- |
+| `Ctrl + S` | Fotku uloží a **přepíše původní** |
+| `Ctrl + Shift + S` | Uložit fotku jako nový soubor |
+| `Ctrl + I` | Inverze fotky |
 | `Ctrl + A` | Přepočítá a aplikuje STF |
 | `F12` | Zapíná a vypíná aktuální STF |
 | `Ctrl + K` | Zapíná a vypíná náhled masky |
