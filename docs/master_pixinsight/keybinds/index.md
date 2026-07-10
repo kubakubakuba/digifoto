@@ -11,5 +11,5 @@
 | `Alt + N` | Vytvořit nový náhled |
 | `Ctrl + Shift + Z` | Krok zpět / kupředu v náhledu |
 | `Space + LeftClick` | Pohyb fotkou pomocí myši |
-| `Ctrl + Page Down` | Přepínání pohledu mezi dvěmi posledními zvolenými fotkami |
+| `Ctrl + Page Down` | Přepínání pohledu mezi dvěma posledními zvolenými fotkami |
 | `Ctrl + End` | Přepínání pohledu mezi všemi fotkami |
