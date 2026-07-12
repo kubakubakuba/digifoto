@@ -90,7 +90,7 @@ V každém procesu taky v pravém dolním rohu naleznete tlačítko `Reset`, kte
 
 Jediný technický rozdíl mezi procesy a skripty je, že okno skriptu vám zablokuje interakci s ostatním prostředím PixInsight. Současně většinu skriptů taky nemůžete uložit na plochu ve formě ikonky. Ke skriptům se dostaneme přes horní lištu `Script`. Hlavní skripty, se kterými se setkáme, jsou `WeightedBatchPreprocessing`, `BatchFormatConversion`, `ImageSolver`, `CanonBandingReduction`, `DarkStructureEnhance` a `Repaired HSV Separation`.
 
-![Příklad okna skriptu `WeightedBatchPreprocessing`](ss12.avif)
+![Příklad okna skriptu `WeightedBatchPreprocessing`](/img/master_pixi/zaklady/ss12.avif)
 
 ## Ukládání fotek, historie
 
