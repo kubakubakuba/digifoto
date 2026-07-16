@@ -86,6 +86,8 @@ V každém procesu taky v pravém dolním rohu naleznete tlačítko `Reset`, kte
 
 ![](/img/master_pixi/zaklady/ss24.avif)
 
+Mírný life hack pro praxi: dřív nebo později se vám stane, že omylem zavřete okno procesu, ve kterém jste dlouho nastavovali parametry. Pokud proces otevřete přes proces ikonku na ploše, jeho nastavení se ***resetuje*** na to, které si pamatuje proces ikonka. Tomuto avšak můžete předejít, pokud proces otevřete přes `Process > All Processes`.
+
 ## Skripty
 
 Jediný technický rozdíl mezi procesy a skripty je, že okno skriptu vám zablokuje interakci s ostatním prostředím PixInsight. Současně většinu skriptů taky nemůžete uložit na plochu ve formě ikonky. Ke skriptům se dostaneme přes horní lištu `Script`. Hlavní skripty, se kterými se setkáme, jsou `WeightedBatchPreprocessing`, `BatchFormatConversion`, `ImageSolver`, `CanonBandingReduction`, `DarkStructureEnhance` a `Repaired HSV Separation`.
